@@ -38,7 +38,7 @@ class AuthApi {
   }
 }
 const authApi = new AuthApi({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://api.vugar.nomoredomainsmonster.ru',
   headers: {
     'Content-Type': 'application/json',
   },

@@ -1,0 +1,70 @@
+.profile-container__avatar { 
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.profile-container__avatar:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.profile-container__avatar:hover + .profile-container__edit-button {
+  display: inline-block;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1045px) { 
+  .profile-container__avatar { 
+    margin-bottom: 26px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .profile-container__avatar {
+    align-self: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1045px) {
+  .profile-container__avatar {
+    margin-bottom: 26px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .profile-container__avatar {
+    align-self: center;
+  }
+}

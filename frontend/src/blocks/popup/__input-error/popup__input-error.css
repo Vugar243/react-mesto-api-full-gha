@@ -1,0 +1,10 @@
+.popup__input-error {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF0000;
+  margin-bottom: 9px;
+  opacity: 0;
+  height: 20px;
+}

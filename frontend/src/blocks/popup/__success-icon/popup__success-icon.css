@@ -1,0 +1,10 @@
+.popup__success-icon {
+  background-image: url(../../../images/Union\ 2.svg);
+  min-width: 120px;
+  min-height: 120px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-self: center;
+  margin-top: 26px;
+  margin-bottom: 32px;
+}

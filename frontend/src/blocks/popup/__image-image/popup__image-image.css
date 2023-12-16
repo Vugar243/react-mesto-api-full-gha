@@ -1,0 +1,18 @@
+.popup__image-image {
+  position: fixed;
+  top: calc(50% - 266.5px);
+  left: calc(50% - 400px);
+  width: 816px;
+  height: 540px;
+  max-width: 75vw;
+  max-height: 75vh;
+  object-fit: cover;
+}
+@media screen and (max-width: 931px) {
+  .popup__image-image {
+    width: 240px;
+    height: 299px;
+    top: calc(50% - 149px);
+    left: calc(50% - 120px);
+  }
+}

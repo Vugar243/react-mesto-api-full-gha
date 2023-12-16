@@ -1,0 +1,9 @@
+.auth-form__error {
+  color: red;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 9px;
+  opacity: 0;
+}

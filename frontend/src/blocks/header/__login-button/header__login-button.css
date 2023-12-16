@@ -1,0 +1,19 @@
+.header__login-button {
+  margin-top: 6px;
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+.header__login-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

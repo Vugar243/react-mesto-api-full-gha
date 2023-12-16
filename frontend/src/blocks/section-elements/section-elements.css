@@ -1,0 +1,13 @@
+.section-elements {
+  margin: 51px 200px 66px;
+}
+@media screen and (max-width: 768px) {
+  .section-elements {
+    margin: 36px 100px 66px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-elements {
+    margin: 36px 19px 48px;
+  }
+}

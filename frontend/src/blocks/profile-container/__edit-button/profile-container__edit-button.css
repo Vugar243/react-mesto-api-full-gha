@@ -1,0 +1,34 @@
+.profile-container__edit-button {
+  background-image: url("../../../images/edit-avatar.svg");
+  width: 26px; /* Увеличьте ширину и высоту кнопки */
+  height: 26px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  position: absolute;
+  top: 40%; /* Положение по вертикали */
+  left: 12%; /* Положение по горизонтали */
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  display: none;
+}
+.profile-container__edit-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.profile-container__edit-button:hover + .profile-container__avatar {
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+
+
+
+
+@media screen and (max-width: 1045px) { 
+  .profile-container__edit-button { 
+    top: 25%;
+    left: 45%;
+  }
+}

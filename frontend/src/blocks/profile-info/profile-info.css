@@ -1,0 +1,14 @@
+.profile-info {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-areas: 
+  "title button"
+  "subtitle subtitle";
+  grid-template-columns: 1fr;
+  padding-left: 30px;
+}
+@media screen and (max-width: 1045px) {
+  .profile-info {
+    padding-left: 0;
+  }
+}

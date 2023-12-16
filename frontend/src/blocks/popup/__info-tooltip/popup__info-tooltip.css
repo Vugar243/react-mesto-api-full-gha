@@ -1,0 +1,13 @@
+.popup__info-tooltip {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    left: calc(50% - 215px);
+    padding: 34px 36px;
+    position: fixed;
+    top: calc(50% - 164px);
+    width: 358px;
+}

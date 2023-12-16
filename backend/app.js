@@ -9,7 +9,7 @@ const { login, createUser } = require('./controllers/users');
 const authMiddleware = require('./middlewares/auth');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const { PORT = 3000, MONGODB_URI } = process.env;
+const { PORT = 3001, MONGODB_URI } = process.env;
 const app = express();
 app.use(express.json());
 app.use(cors());

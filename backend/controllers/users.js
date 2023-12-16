@@ -110,7 +110,7 @@ exports.login = (req, res) => {
       // Создание JWT токена
       const token = jwt.sign(
         { _id: user._id },
-        JWT_SECRET,
+        process.env.NODE_ENV === 'production' ? JWT_SECRET : JWT_SECRET,
         { expiresIn: '7d' },
       );
       /*

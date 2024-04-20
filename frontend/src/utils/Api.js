@@ -105,7 +105,7 @@ class Api {
   }
 }
 const api = new Api({
-  baseUrl: 'https://api.vugar.nomoredomainsmonster.ru'
+  baseUrl: 'https://api.vugar1.nomoredomainsmonster.ru'
 });
 export default api;
 

@@ -38,7 +38,7 @@ class AuthApi {
   }
 }
 const authApi = new AuthApi({
-  baseUrl: 'https://api.vugar.nomoredomainsmonster.ru',
+  baseUrl: 'https://api.vugar1.nomoredomainsmonster.ru',
   headers: {
     'Content-Type': 'application/json',
   },
